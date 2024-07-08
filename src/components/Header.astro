@@ -1,9 +1,12 @@
 ---
+import { ViewTransitions } from 'astro:transitions';
 import Hamburger from '../components/Hamburger.astro';
 import Navigation from '../components/Navigation.astro';
 
 const { title } = Astro.props;
 ---
+
+<ViewTransitions />
 
 <header>
   <nav>
